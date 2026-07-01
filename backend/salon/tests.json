@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "Список сотрудников",
+      "method": "GET",
+      "path": "/?resource=staff",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Список услуг",
+      "method": "GET",
+      "path": "/?resource=services",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Список продаж",
+      "method": "GET",
+      "path": "/?resource=sales",
+      "expectedStatus": 200
+    },
+    {
+      "name": "Статистика",
+      "method": "GET",
+      "path": "/?resource=stats",
+      "expectedStatus": 200
+    }
+  ]
+}
